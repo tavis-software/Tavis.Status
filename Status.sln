@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Status", "Status\Status.csproj", "{69D895A8-D36F-40E5-B04E-328698A2B4DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatusTests", "StatusTests\StatusTests.csproj", "{22138C15-58D2-4802-9843-5D80355FB94E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7D53706F-9457-4E4A-88FC-A545DBAB7BF0}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{6C9FECA3-9716-4A09-A7FC-66EB6F1E4AF7}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69D895A8-D36F-40E5-B04E-328698A2B4DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69D895A8-D36F-40E5-B04E-328698A2B4DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69D895A8-D36F-40E5-B04E-328698A2B4DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69D895A8-D36F-40E5-B04E-328698A2B4DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22138C15-58D2-4802-9843-5D80355FB94E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22138C15-58D2-4802-9843-5D80355FB94E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22138C15-58D2-4802-9843-5D80355FB94E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22138C15-58D2-4802-9843-5D80355FB94E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
