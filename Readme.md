@@ -19,7 +19,7 @@ A status document might look like:
 
     <status state="busy" progress="2/75" message="This is a message"/>
 
-It consists of a root node named `status` and has the properties, state, progress and message.  Only the `state` property is required, and should be one of the following values : {waiting, busy, warning, error, ok}
+It consists of a root node named `status` and has the properties, state, progress and message.  Only the `state` property is required, and should be one of the following values : {`waiting`, `busy`, `warning`, `error`, `ok`}
 
 The `progress` property is a fraction that can be optionally used to indicate to a user how much longer we expect the resource to remain in a particular state.
 
