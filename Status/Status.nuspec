@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Darrel Miller</authors>
+    <owners>Tavis Software Inc.</owners>
+    <licenseUrl>https://github.com/tavis-software/Status/blob/master/License.txt</licenseUrl>
+    <projectUrl>https://github.com/tavis-software/Status</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Initlial release of XML parser for application/status+xml</releaseNotes>
+    <copyright>Copyright 2013</copyright>
+    <tags>MediaType Status</tags>
+  </metadata>
+</package>
