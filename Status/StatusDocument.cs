@@ -10,7 +10,8 @@ namespace Tavis.Status
                     Error, // In some kind of failure state, see message
                     Warning, //  Ok, but some problem condition detected
                     Busy, // Something is happening, comeback and check later
-                    Ok //  All is good
+                    Ok, //  All is good
+                    Cancelled // Resource represents a process that was cancelled
         }
 
     public class StatusDocument
